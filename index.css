@@ -1,0 +1,343 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+    text-decoration: none;
+    
+}
+a.p{ 
+    text-decoration: none;
+}
+body{ 
+    display: inline-block;
+    width: 100%;
+    background-color: bisque;
+    background-size: cover;
+    font-family: 'poppins', sans-serif;
+}
+header{ 
+    height: 100px;
+    background-color: palevioletred;
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+}
+.logo { 
+    width: 30%;
+    float: left;
+    line-height: 100px;
+}
+.logo a{ 
+    text-decoration: none;
+    font-size: 30px;
+    font-family: poppins;
+    color: #fff;
+    letter-spacing: 5px;
+}
+nav{ 
+    float: right;
+    line-height: 100px;
+}
+nav a{ 
+    text-decoration: none;
+    font-family: poppins;
+    font-size: 20px;
+    margin: 0 10px;
+    color: white;
+
+    
+}
+.baniere{ 
+    width: 100%;
+    height: 600px;
+    position: fixed;
+    top: 100px;
+    background-image: url(https://i.pinimg.com/474x/40/86/94/40869457b98a5992df45b43bf2651a94.jpg);
+    -webkit-background-size: cover ;
+    background-size: cover;
+    background-position: center center;
+
+    
+    
+}
+.baniere h2{ 
+    padding-top: 8%;
+    font-size: 70px;
+    font-family: poppins;
+    text-transform: uppercase;
+    color: white;
+    text-align: center
+}
+.baniere h3{ 
+    color: black;
+    text-align: center;
+}
+.Ile de Goree{
+    margin-left: 50%;
+   
+ }
+ .card{
+     position: relative;
+     width: 300px;
+     height: 400px;
+     background: #fff;
+     transform-style: preserve-3d;
+     transform: perspective(1000px);
+     box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.25);
+     transition: 1s;
+ }
+ .card:hover{
+     transform: translateX(50%);
+ }
+ .card .imgbox{
+     position: relative;
+     width: 100%;
+     height: 100%;
+     z-index: 1;
+     transform-origin: left;
+     transform-origin: left;
+     transform-style: preserve-3d;
+     transition: 1s;
+ }
+ .card:hover .imgbox{
+    transform: rotateY(-180deg);
+}
+.card .imgbox img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform-style: preserve-3d;
+    transition: 1s;
+}
+.card .details{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card .details .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card .details .content h2{
+    text-align:left;
+    font-weight: 700;
+    line-height: 1em;
+}
+.card .details .content p{
+    color: black;
+    font-size: small;
+}
+.card{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background: #fff;
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.25);
+    transition: 1s;
+}
+.card:hover{
+    transform: translateX(50%);
+}
+.card .imgbox{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transform-origin: left;
+    transform-style: preserve-3d;
+    transition: 1s;
+}
+.card .details{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card .details .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card .details .content h2{
+    text-align:left;
+    font-weight: 700;
+    line-height: 1em;
+}
+.card .details .content p{
+    color: black;
+    font-size: small;
+}
+.Congo{
+    margin-left: 50%;
+}
+.card{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background: #fff;
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.25);
+    transition: 1s;
+}
+.card:hover{
+    transform: translateX(50%);
+}
+.card .imgbox{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transform-origin: left;
+    transform-style: preserve-3d;
+    transition: 1s;
+}
+.card:hover .imgbox{
+    transform: rotateY(-180deg);
+}
+.card .imgbox img{ 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform-style: preserve-3d;
+    transition: 1s;
+}
+.card .details{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card .details .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card .details .content h2{
+    text-align:left;
+    font-weight: 700;
+    line-height: 1em;
+}
+.card .details .content p{
+    color: black;
+    font-size: small;
+}
+.Ethiopie{
+    margin-left: 50%;
+}
+.card{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background: #fff;
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.25);
+    transition: 1s;
+    top: 100px;
+}
+.card:hover{
+    transform: translateX(50%);
+}
+.card .imgbox{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transform-origin: left;
+    transform-style: preserve-3d;
+    transition: 1s;
+}
+.card:hover .imgbox{
+    transform: rotateY(-180deg);
+}
+.card .imgbox img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform-style: preserve-3d;
+    transition: 1s;
+}
+.card .details{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card .details .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card .details .content h2{
+    text-align:left;
+    font-weight: 700;
+    line-height: 1em;
+}
+.card .details .content p{
+    color: black;
+    font-size: small;
+}
+.contenu {
+    width: 100%;
+    position: relative;
+    top: 600px;
+ background-image: url(https://i.pinimg.com/564x/27/56/82/275682b9d905829c2ff4b4d03d25362f.jpg);
+    height: 2200px
+   }
+   .contenu h2 {
+    font-family: poppins;
+    letter-spacing: 4px;
+    padding-top: 30px;
+    font-size: 40px;
+    margin: 0;
+    color: black;
+   }
+   .contenu p {
+    padding: 2% 0px;
+    font-family: poppins;
+    line-height: 30px;
+    font-size: 30px;
+   }
+   .style {
+    width: 1170px;
+    margin: 0 auto;
+   }
